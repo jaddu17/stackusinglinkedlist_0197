@@ -31,6 +31,13 @@ public:
         cout << "Push value: " << value << endl;
         return value;
     }
+
+    // Pop Operation: Remove the topmost element from the stack
+    void pop() {
+        if (isEmpty()) {
+            cout << "Stack is empty." << endl;
+        }
+    }
 };
 
 int main()
